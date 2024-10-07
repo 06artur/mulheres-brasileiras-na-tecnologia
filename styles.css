@@ -1,0 +1,130 @@
+@font-face{
+    font-family: m;
+    src: url(./Authentic\ Claisha.ttf)
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    background-image: url(https://cdn.pixabay.com/photo/2019/04/30/12/34/skyscrapers-4168483_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: #000000;
+    color: rgb(32, 32, 32);
+    padding: 30px 0;
+    text-align: center;
+    font-size: x-large;
+}
+
+header h1 {
+    margin: 0;   
+    font-family: Arial, Helvetica, sans-serif;
+    background: url( https://i.pinimg.com/originals/99/f9/5e/99f95ee41c3def28268cc3877f103daf.gif);
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 900;
+
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+main {
+    padding: 50px;
+    color: rgb(255, 255, 255);
+    width: 75%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    text-align: left;
+}
+
+figure {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    background: url(https://i.pinimg.com/originals/99/f9/5e/99f95ee41c3def28268cc3877f103daf.gif);
+    background-size: cover;
+    -webkit-background-clip:
+    color: transparent;
+    font-weight: 900;
+}
+
+footer {
+    background-color: #252525;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    background: url(https://i.pinimg.com/originals/99/f9/5e/99f95ee41c3def28268cc3877f103daf.gif);
+    background-size: cover;
+    -webkit-background-clip:
+    color: transparent;
+    font-weight: 900;
+
+}
